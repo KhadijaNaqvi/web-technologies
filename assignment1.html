@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLVK  
+    </title>
+    <style>
+        
+        *{box-sizing: border-box;}
+
+     body{font-family: Arial, Helvetica, sans-serif;}   
+    
+    .navbar {
+
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: double;
+}
+.navbar img{
+    width: 150px;
+    float:left
+}
+.row { 
+    size: 100%;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.footer {
+    text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 70px;
+}
+.row2::after {
+    size: 100;
+    background-color: bisque;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    </style>
+</head>
+<body>
+      <div class="navbar">
+          <img src="logo.png" >
+        <a href="#" class="active">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Children</a>
+        <a href="#">About Us</a>
+        
+
+       
+        
+      </div>
+      <div class="row" padding: 10px>
+        <div class="side" >
+          <div class="fakeimg" style="height:400px;">
+        </div>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="column">
+          <img src="image.jpeg"  style="width:100%">
+        </div>
+        <div class="column">
+          <img src="image1.jpeg"  style="width:100%">
+        </div>
+        <div class="column">
+          <img src="image2.jpeg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image3.jpeg"  style="width:100%">
+          </div>
+          <div class="column">
+            <img src="image4.jpeg" style="width:100%">
+          </div>
+      </div>
+      
+      
+      <div class="footer">
+        <h2>© 2021 Lyst </h2>
+      </div>
+      
+    
+</body>
+</html>
